@@ -3,18 +3,18 @@
 [![GitHub](https://img.shields.io/github/license/mika-f/lazy-class.js?style=flat-square)](./LICENSE)
 [![npm (scoped)](https://img.shields.io/npm/v/@mikazuki/lazy-class?style=flat-square)](https://www.npmjs.com/package/@mikazuki/lazy)
 
-Lazy evaluation value for JavaScript.
+Lazy evaluation value (class) for JavaScript.
 
 ## Install
 
 ```
-yarn add @mikazuki/lazy
+yarn add @mikazuki/lazy-class
 ```
 
 ## How to use
 
 ```typescript
-import { AsyncLazy, Lazy } from "@mikazuki/lazy";
+import { AsyncLazy, Lazy } from "@mikazuki/lazy-class";
 
 // sync
 const lazy = new Lazy<string>(() => "Hello, World");
