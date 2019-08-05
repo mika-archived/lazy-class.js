@@ -1,9 +1,8 @@
 {
-  "name": "@mikazuki/lazy",
+  "name": "@mikazuki/lazy-class",
   "version": "0.0.1",
-  "description": "A lazy value for JavaScript.",
-  "repository": "https://github.com/mika-f/lazy.git",
-  "homepage": "https://github.com/mika-f/lazy",
+  "repository": "https://github.com/mika-f/lazy-class.js.git",
+  "homepage": "https://github.com/mika-f/lazy-class.js",
   "author": {
     "name": "Fuyuno Mikazuki",
     "email": "mikazuki_fuyuno@outlook.com",
