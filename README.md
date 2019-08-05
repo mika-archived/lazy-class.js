@@ -28,6 +28,6 @@ const fetch = async () => new Promise(resolve => resolve("Hello, World"));
 const asyncLazy = new AsyncLazy<string>(async () => await fetch());
 
 asyncLazy.isValueInitialized; // => false
-asyncLazy.value; // => "Hello, World"
+await asyncLazy.value; // => "Hello, World"
 asyncLazy.isValueInitialized; // => true
 ```
