@@ -1,7 +1,7 @@
 # Lazy Class
 
 [![GitHub](https://img.shields.io/github/license/mika-f/lazy-class.js?style=flat-square)](./LICENSE)
-[![npm (scoped)](https://img.shields.io/npm/v/@mikazuki/lazy-class?style=flat-square)](https://www.npmjs.com/package/@mikazuki/lazy)
+[![npm (scoped)](https://img.shields.io/npm/v/@mikazuki/lazy-class?style=flat-square)](https://www.npmjs.com/package/@mikazuki/lazy-class)
 
 Lazy evaluation value (class) for JavaScript.
 
