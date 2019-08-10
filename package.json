@@ -1,7 +1,13 @@
 {
   "name": "@mikazuki/lazy-class",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lazy evaluation value (class) for JavaScript.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/mika-f/lazy-class.js.git",
   "homepage": "https://github.com/mika-f/lazy-class.js",
   "author": {
