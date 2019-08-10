@@ -65,13 +65,22 @@ workflows:
   version: 2.1
   tests:
     jobs:
-      - checkout_code
+      - checkout_code:
+          filters:
+            tags:
+              only: /.*/
       - install_deps:
           requires:
             - checkout_code
+          filters:
+            tags:
+              only: /.*/
       - test:
           requires:
             - install_deps
+          filters:
+            tags:
+              only: /.*/
       - publish:
           requires:
             - test
